@@ -1,0 +1,54 @@
+.quote {
+  width: inherit;
+  border-radius: 10px;
+  border: solid 1.5px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.quote-p {
+  /* color: blue; */
+  padding: 10px;
+  padding-bottom: 8px;
+  margin: 0px;
+  font-size: 18px;
+}
+.quote-name {
+  padding-bottom: 13px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.date-added {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 6px;
+  bottom: 3px;
+  font-size: 13px;
+  color: rgb(245, 105, 66);
+  font-weight: bold;
+}
+@media screen and (max-device-width: 540px) {
+  .quotes {
+    display: block;
+    position: relative;
+    left: 22px;
+    top: 10px;
+    min-width: calc(100vw - 44px);
+  }
+  .quote {
+    min-width: calc(100vw - 44px);
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .quote-p {
+    font-size: 36px;
+  }
+  .quote-name {
+    font-size: 30px;
+  }
+  .date-added {
+    font-size: 25px;
+  }
+}
