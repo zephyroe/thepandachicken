@@ -145,11 +145,12 @@ caption {
 button {
   background-color: white;
   border: 2px solid black;
+  color: black;
   border-radius: 5px;
   font-family: 'Times New Roman';
   font-size: 11px;
-  padding-top: 2px;
-  padding-bottom: 2.5px;
+  /* padding-top: 2px; */
+  /* padding-bottom: 2.5px; */
   margin: 1.5px;
 }
 .resetOn {
