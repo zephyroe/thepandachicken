@@ -141,6 +141,7 @@ caption {
   position: absolute;
   top: 194px;
   z-index: 3;
+  /* display: block; */
 }
 button {
   background-color: white;
@@ -151,7 +152,14 @@ button {
   font-size: 11px;
   /* padding-top: 2px; */
   /* padding-bottom: 2.5px; */
+  width: auto;
+  height: auto;
+  /* display: flex; */
   margin: 1.5px;
+}
+.format-button {
+  text-align: center;
+  /* display: flex; */
 }
 .resetOn {
   font-weight: bold;
