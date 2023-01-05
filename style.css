@@ -142,6 +142,7 @@ caption {
   top: 194px;
   z-index: 3;
   /* display: block; */
+  display: inline-flex;
 }
 button {
   background-color: white;
@@ -150,16 +151,12 @@ button {
   border-radius: 5px;
   font-family: 'Times New Roman';
   font-size: 11px;
-  /* padding-top: 2px; */
-  /* padding-bottom: 2.5px; */
   width: auto;
   height: auto;
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
   margin: 1.5px;
-}
-.format-button {
-  text-align: center;
-  /* display: flex; */
+  display: inline;
 }
 .resetOn {
   font-weight: bold;
