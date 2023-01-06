@@ -1,6 +1,13 @@
 /* QUOTES BLOCKS IN 'style_quotes.css' */
 
 @media screen and (max-device-width: 540px) {
+  .content-container {
+    height: 1500px;
+  }
+  .footer-bottom {
+    background-color: black;
+    height: 100px;
+  }
   h1 {
     font-size: 64px;
   }

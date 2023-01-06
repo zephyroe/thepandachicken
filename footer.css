@@ -1,0 +1,15 @@
+footer {
+  width: 100vw;
+  height: 100px;
+
+  /* position: absolute;
+  bottom: 0; */
+}
+.footer-top {
+  height: 50px;
+  background-color: rgb(200,200,200);
+}
+.footer-bottom {
+  background-color: black;
+  height: 50px;
+}

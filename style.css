@@ -24,9 +24,17 @@ header {
 caption {
   color: orange;
 }
+.content-container {
+  /* background-color: blue; */
+  position: block;
+  width: 100vw;
+  /* overflow: auto; */
+  height: 984px;
+}
 .content {
   width: 100vw;
-  height: 100vh;
+  /* height: 974px; */
+  /* background-color: blue; */
   position: absolute;
 }
 .read-time {
@@ -243,6 +251,9 @@ h2 {
   100% {top: calc(100% - 107px); transform: scale(0.8, 0.8);}
 }
 @media (max-width: 1250px) {
+  .content-container {
+    height: 620px;
+  }
   .social-media {
     display: none;
   }
@@ -292,6 +303,9 @@ h2 {
   /* .quotes {
     display: none;
   } */
+  .content-container {
+    height: 880px;
+  }
   .quotes {
     display: block;
     position: relative;
