@@ -249,9 +249,9 @@ h2 {
   .social-media {
     display: none;
   }
-  .social-media-mobile {
+  /* .social-media-mobile {
     display: block;
-  }
+  } */
   .social-post {
     width: 80%;
     position: relative;
