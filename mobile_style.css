@@ -44,15 +44,6 @@
   .read-time {
     font-size: 25px;
   }
-  /* .social-media-mobile {
-    display: block;
-  } */
-  .social-post {
-    width: 80vw;
-    position: relative;
-    left: 7.5vw;
-    /* border: solid red; */
-  }
   @keyframes peguin-strech {
     50% {transform: scale(6, 0.25);}
     60% {transform: scale(1.5, 1.5)}

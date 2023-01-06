@@ -61,9 +61,6 @@ caption {
 .social-media-mobile {
   display: none;
 }
-.social-post {
-  width: inherit;
-}
 .penguin-container {
   width: 100vw;
   height: 175px;
@@ -248,15 +245,6 @@ h2 {
 @media (max-width: 1250px) {
   .social-media {
     display: none;
-  }
-  /* .social-media-mobile {
-    display: block;
-  } */
-  .social-post {
-    width: 80%;
-    position: relative;
-    left: 10%;
-    /* border: solid red; */
   }
   .quotes {
     width: calc(100vw - 678px);
