@@ -35,27 +35,27 @@ caption {
   color: rgb(245, 105, 66);
 }
 .post-one-image {
-  width: 560px;
+  width: 540px;
   max-width: calc(100vw - 44px);
   border: solid 2px black;
 }
 .article-one {
-  width: 560px;
+  width: 540px;
   max-width: calc(100vw - 44px);
   margin-left: 20px;
 }
 .quotes {
   position: absolute;
   top: 0px;
-  left: 604px;
-  width: calc(100vw - 898px);
+  left: 579px;
+  width: calc(100vw - 940px);
   /* height: 400px; */
 }
 .social-media {
-  width: 250px;
+  width: 326px;
   height: 50vh;
   position: absolute;
-  right: 20px;
+  right: 15px;
   top: 0px;
 }
 .social-media-mobile {
