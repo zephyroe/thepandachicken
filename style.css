@@ -61,7 +61,7 @@ caption {
 }
 .social-media {
   width: 326px;
-  height: 50vh;
+  /* height: 50vh; */
   position: absolute;
   right: 15px;
   top: 0px;
