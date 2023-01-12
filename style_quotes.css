@@ -33,6 +33,9 @@
   font-weight: bold;
 }
 @media screen and (max-device-width: 540px) {
+  .content {
+    flex-direction: column;
+  }
   .quotes {
     display: block;
     position: relative;
