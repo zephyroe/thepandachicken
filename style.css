@@ -28,6 +28,7 @@ caption {
   width: calc(100vw - 20px);
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 .article-one {
   width: 540px;
