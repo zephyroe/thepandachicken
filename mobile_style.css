@@ -5,36 +5,41 @@
     height: 1500px;
   }
   h1 {
-    font-size: 64px;
+    font-size: 84px;
     /* display: none; */
   }
   h4 {
     font-size: 48px;
   }
   header {
-    height: 90px;
+    height: 110px;
   }
   .penguin-container {
-    height: 260px;
+    height: 340px;
+    /* position: relative; */
   }
   .penguin-head {
-    transform: scale(1.5);
-    top: 135px;
+    transform: scale(2);
+    top: 190px;
+    position: absolute;
   }
   .button-container {
-    top: 300px;
+    position: absolute;
+    top: 400px;
+    transform: scale(1.5, 1.5);
+    /* background-color: red; */
   }
   button {
     background-color: white;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 3.5px solid black;
+    border-radius: 10px;
     margin: 3px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Times New Roman';
   }
   h2 {
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 5.5vw;
+    line-height: 5.5vw;
   }
   .post-one-image {
     min-width: calc(100vw - 44px);

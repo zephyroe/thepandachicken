@@ -62,6 +62,7 @@ caption {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* position: relative; */
 }
 .penguin-head {
   width: 120px;
