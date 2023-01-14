@@ -9,7 +9,7 @@
     /* display: none; */
   }
   h4 {
-    font-size: 48px;
+    font-size: 3.5em;
   }
   header {
     height: 110px;
@@ -51,7 +51,7 @@
     margin-left: 20px;
   }
   .read-time {
-    font-size: 25px;
+    font-size: 1.5em;
   }
   @keyframes peguin-strech {
     50% {transform: scale(6, 0.25);}
