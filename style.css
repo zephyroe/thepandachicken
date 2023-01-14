@@ -144,10 +144,11 @@ button {
   font-size: 11px;
   width: auto;
   height: auto;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   margin: 1.5px;
   display: inline;
+  text-align: center;
 }
 .resetOn {
   font-weight: bold;
